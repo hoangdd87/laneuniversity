@@ -1,3 +1,291 @@
-*{
+* {
 
+    /* color: #02529b; */
+}
+
+.csbaomat {
+    color: white;
+}
+
+.social-network {
+    text-align: right;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}
+p.p--hoithao {
+    color: white;
+    margin-top: 18px;
+    line-height: 22px;
+}
+
+.hoithao {
+    flex: 1 1 auto;
+    padding-left: 45px;
+    text-align: justify;
+}
+.background-blue {
+    background: #02529b;
+
+}
+.background-clip-contentbox{
+    background-clip: content-box;
+}
+.ngaythang {
+    flex: 0 1 auto;
+    font-family: 'Anton', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+h1,h2,h3,p{
+    margin-bottom: 0;
+}
+
+.h3--hoithao.margin-top0 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 22px;
+    font-weight: 700;
+}
+
+.p--gioithieukhoi {
+    color: #02529b;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.h2--main {
+    color: #02529b;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.btn--chitiet {
+    background: #00529a;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.btn--chitiet:hover {
+    background: #051727;
+}
+
+.p--content-row1 {
+    color: #01539b;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3.h3--title-row1 {
+    color: #01539b;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.text-holder {
+    border: solid thin #cccccc;
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+
+.img-inside {
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.background-grey {
+    background: #f1f1f1;
+    position: relative;
+    z-index: 1;
+}
+.background-drak {
+    background: #555a78;
+    position: relative;
+}
+.white-color{
+    color: white;
+}
+
+.background-grey:after {
+    z-index: 2;
+    top: 100%;
+    left: calc(50% - 25px);
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 28px solid #f2f2f2;
+}
+
+.background-white {
+    background: white;
+    position: relative;
+}
+
+.background-white:after {
+    top: 100%;
+    left: calc(50% - 25px);
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 2;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 28px solid white;
+}
+
+img.logo {
+    /* position: absolute; */
+    /* top: 0; */
+    display: none;
+}
+
+.navbar-header {
+    /* color: wheat; */
+}
+.input--email{
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background: #002f59;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+a.navbar-brand {
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-default {
+    background: #02539b;
+    /* color: white; */
+    border: none;
+    /* width: 100%; */
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.row-flex{
+    display: flex;
+
+}
+.flex-row-end{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.top---45 {
+    top: -45px;
+}
+
+.padding-top80 {
+    padding-top: 80px;
+}
+
+.padding-left-right33 {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.padding-top65 {
+    padding-top: 65px;
+}
+
+.padding-top40 {
+    padding-top: 40px;
+}
+
+.padding-top45 {
+    padding-top: 45px;
+}
+
+.padding-bottom38 {
+    padding-bottom: 38px;
+}
+
+.padding-bottom40 {
+    padding-bottom: 40px;
+}
+
+.margin-top28 {
+    margin-top: 28px;
+}
+
+.margin-top22 {
+    margin-top: 22px;
+}
+
+.margin-top0 {
+    margin-top: 0;
+}
+.margin-left-15{
+    margin-left: 15px;
+}
+.margin-right-15{
+    margin-right: 15px;
+}
+.margin-top34 {
+    margin-top: 34px;
+}
+
+.margin-top30 {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        display: none;
+    }
+
+    img.logo {
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+
+    .navbar-default {
+        position: relative;
+        left: 271px;
+        width: calc(100% - 271px);
+        border-radius: 0;
+    }
 }
