@@ -3,8 +3,22 @@
     /* color: #02529b; */
 }
 
+footer{
+    background: #f3f3f3;
+}
+address {
+
+    color: #2661a2;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 .csbaomat {
     color: white;
+    padding: 18px 0
+}
+.logo_social{
+    display: inline;
 }
 
 .social-network {
@@ -280,6 +294,7 @@ a.navbar-brand {
         display: block;
         position: absolute;
         top: 0;
+        z-index: 999;
     }
 
     .navbar-default {
@@ -287,5 +302,8 @@ a.navbar-brand {
         left: 271px;
         width: calc(100% - 271px);
         border-radius: 0;
+    }
+    footer address{
+        line-height: 32px;
     }
 }
